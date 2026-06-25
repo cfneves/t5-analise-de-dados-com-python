@@ -44,8 +44,8 @@ Espaço de colaboração da **Turma T5** durante o Módulo Básico (*Manipulaç�
 t5-analise-de-dados-com-python/
 ├── README.md
 ├── 01_Introducao_Fundamentos_Analise_Dados/
-│   ├── 02_aula_teorica.html      ← teoria + quiz interativo
-│   └── 03_notebook_colab.ipynb   ← notebook prático (abra no Google Colab)
+│   ├── aula_teorica.html      ← teoria + quiz interativo
+│   └── notebook_colab.ipynb   ← notebook prático (abra no Google Colab)
 ├── 02_..._ (próximas semanas, liberadas ao longo do curso)
 └── alunos/
     ├── LEIA-ME.txt
@@ -53,7 +53,7 @@ t5-analise-de-dados-com-python/
     └── ...
 ```
 
-> Cada semana publica aqui apenas os 2 arquivos de uso do aluno (`02_aula_teorica.html` e `03_notebook_colab.ipynb`). Planos de aula, listas de exercícios, atividades avaliativas e gabaritos são materiais internos do professor e não são publicados neste repositório.
+> Cada semana publica aqui apenas os 2 arquivos de uso do aluno (`aula_teorica.html` e `notebook_colab.ipynb`, sem numeração — para não confundir quem espera ver um arquivo "01"). Planos de aula, listas de exercícios, atividades avaliativas e gabaritos são materiais internos do professor (numerados 01/04/05/06) e não são publicados neste repositório.
 
 ---
 
