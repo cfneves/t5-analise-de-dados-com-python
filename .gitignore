@@ -1,3 +1,10 @@
+# Pasta de arquivos internos (organização local: cronograma em imagem, Ficha de
+# Produto, docs de setup, skill education-factory, cópia local do README, etc.).
+# Ignorar a pasta inteira (e não só por extensão) garante que NADA dentro dela
+# suba, mesmo um eventual README.md interno — uma pasta ignorada não é
+# "designorada" pelas exceções de *.md abaixo.
+/arquivos/
+
 # Materiais internos do professor (planos, exercícios, atividades avaliativas com
 # gabarito, guias de instrutor, mapas, rubricas) NÃO vão para o repositório da turma.
 # Só o material do aluno (HTML teórico + notebook) e o README do repositório são enviados.
