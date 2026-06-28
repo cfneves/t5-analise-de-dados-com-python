@@ -49,7 +49,10 @@ t5-analise-de-dados-com-python/
 ├── 02_Logica_de_Programacao/
 │   ├── aula_teorica.html      ← teoria + quiz interativo
 │   └── notebook_colab.ipynb   ← notebook prático (abra no Google Colab)
-├── 03_..._ (próximas semanas, liberadas ao longo do curso)
+├── 03_Versionamento_e_Python_Local/
+│   ├── aula_teorica.html      ← teoria + quiz interativo
+│   └── notebook_colab.ipynb   ← notebook prático (abra no Google Colab)
+├── 04_..._ (próximas semanas, liberadas ao longo do curso)
 └── alunos/
     ├── LEIA-ME.txt
     ├── <seu-nome>/                ← cada aluno cria a sua pasta aqui
