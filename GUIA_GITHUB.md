@@ -39,7 +39,7 @@
 
 4. **Fazer login no GitHub Desktop.** Abra o GitHub Desktop → na tela inicial, clique em **"Sign in to GitHub.com"** → faça login com a conta criada no Passo 1.
 
-5. **Clonar (baixar) o repositório da turma.** "Clonar" é baixar uma cópia completa do repositório da turma para o seu computador, já conectada ao GitHub. File → **Clone Repository** → aba "GitHub.com" → procure `t5-analise-de-dados-com-python` → escolha uma pasta no seu PC → **Clone**.
+5. **Clonar (baixar) o repositório da turma.** "Clonar" é baixar uma cópia completa do repositório da turma para o seu computador, já conectada ao GitHub. File → **Clone Repository** → aba "GitHub.com" → procure `turma05-analise-de-dados-com-python` → escolha uma pasta no seu PC → **Clone**.
 
 6. **Criar a sua branch.** Trabalhar direto na `main` (a pasta "oficial") é bloqueado de propósito — toda mudança precisa passar por revisão. Criando sua própria branch, você tem liberdade total para trabalhar sem afetar ninguém. Clique em **"Current Branch"** (topo) → **"New Branch"** → nome: `alunos/seu-nome` (ex.: `alunos/joao-silva`, sem espaços ou acentos) → **Create Branch**.
 
@@ -69,8 +69,8 @@
 
 4. **Clonar o repositório.** "Clonar" é baixar uma cópia completa do repositório da turma para o seu computador.
    ```bash
-   git clone https://github.com/cfneves/t5-analise-de-dados-com-python.git
-   cd t5-analise-de-dados-com-python
+   git clone https://github.com/cfneves/turma05-analise-de-dados-com-python.git
+   cd turma05-analise-de-dados-com-python
    ```
 
 5. **Criar sua branch.** A `main` é protegida de propósito — criar sua própria branch te dá um espaço livre para trabalhar sem afetar ninguém.

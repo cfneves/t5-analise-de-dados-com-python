@@ -41,7 +41,7 @@ Espaço de colaboração da **Turma T5** durante o Módulo Básico (*Manipulaç�
 ## Estrutura do repositório
 
 ```
-t5-analise-de-dados-com-python/
+turma05-analise-de-dados-com-python/
 ├── README.md
 ├── 01_Introducao_Fundamentos_Analise_Dados/
 │   ├── aula_teorica.html      ← teoria + quiz interativo
@@ -74,8 +74,8 @@ t5-analise-de-dados-com-python/
 Primeira vez configurando seu acesso? Siga o passo a passo completo (com dois caminhos — programa com botões ou terminal) em **[`GUIA_GITHUB.md`](GUIA_GITHUB.md)**. Resumo para quem já tem experiência com Git:
 
 ```bash
-git clone https://github.com/cfneves/t5-analise-de-dados-com-python.git
-cd t5-analise-de-dados-com-python
+git clone https://github.com/cfneves/turma05-analise-de-dados-com-python.git
+cd turma05-analise-de-dados-com-python
 git checkout -b alunos/seu-nome
 mkdir alunos/seu-nome
 # adicione seus arquivos dentro de alunos/seu-nome/
