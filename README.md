@@ -69,52 +69,35 @@ turma05-analise-de-dados-com-python/
 
 ---
 
+## Notebooks do curso
+
+Clique em **Open in Colab** para abrir o notebook da semana diretamente no Google Colab — sem instalar nada, sem navegar por pastas:
+
+| Semana | Tema | Notebook |
+|:------:|------|:--------:|
+| 01 | Introdução e Fundamentos da Análise de Dados | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb) |
+| 02 | Lógica de Programação | *em breve* |
+| 03 | Versionamento e Python Local | *em breve* |
+| 04 | Manipulação de Arquivos e Modularização | *em breve* |
+| 05 | Pandas e NumPy | *em breve* |
+| 06 | Limpeza e Transformação de Dados | *em breve* |
+| 07 | Visualização e Pipelines | *em breve* |
+
+> ⚠️ **Primeira coisa a fazer ao abrir:** clique em **Arquivo → Salvar uma cópia no Drive**. O notebook aberto pelo botão é a versão do professor (somente leitura) — a sua cópia no Drive é onde você escreve e salva suas respostas.
+
+---
+
 ## Como usar o material de cada semana
+
+### Notebook prático
+
+Clique em **Open in Colab** na tabela acima — o notebook já abre no modo executável, pronto para rodar.
 
 ### Aula teórica (HTML)
 
 1. Clique no arquivo `aula_teorica.html` na pasta da semana
-2. Clique no ícone de download (↓ no canto superior direito da visualização do arquivo)
-3. Abra o arquivo baixado no navegador — a aula com quiz interativo funciona completamente offline
-
-### Notebook prático — Google Colab (Blocos 1 a 4)
-
-Os notebooks `.ipynb` foram feitos para o **Google Colab** e não exigem nada instalado no computador. Três formas de abrir:
-
-**Opção A — link direto** (mais rápido):
-
-Clique no botão abaixo — o Colab já abre com o notebook carregado:
-
-[![Abrir no Colab — Semana 01](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb)
-
-*(As demais semanas terão seus próprios links ao serem liberadas ao longo do curso)*
-
-**Opção B — pelo menu do próprio Colab**:
-
-1. Acesse [colab.research.google.com](https://colab.research.google.com)
-2. Clique em **Arquivo → Abrir notebook**
-3. Na janela que abrir, clique na aba **GitHub**
-4. No campo de busca, digite `cfneves/turma05-analise-de-dados-com-python` e pressione **Enter**
-5. Aguarde a lista de arquivos carregar
-6. Clique em `01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb`
-7. O notebook abre direto no Colab
-
-**Opção C — clonar o repositório dentro do Colab**:
-
-1. Acesse [colab.research.google.com](https://colab.research.google.com) e crie um **"+ Novo notebook"**
-2. Na primeira célula, cole o código abaixo e pressione **Shift+Enter**:
-
-```python
-!git clone https://github.com/cfneves/turma05-analise-de-dados-com-python.git
-%cd turma05-analise-de-dados-com-python
-!ls
-```
-
-3. No painel esquerdo, clique no ícone de **pasta (📁)** para abrir o navegador de arquivos
-4. Clique na pasta `01_Introducao_Fundamentos_Analise_Dados` para expandir
-5. Clique **duas vezes** em `notebook_colab.ipynb` — o notebook abre em uma nova aba
-
-> ⚠️ **Importante (qualquer que seja a opção):** o notebook que você abre é somente leitura — é a versão do professor. Clique imediatamente em **Arquivo → Salvar uma cópia no Drive** para ter a sua versão editável. Trabalhe sempre nessa cópia, nunca na original.
+2. Clique no ícone de download (↓ no canto superior direito) → salve o arquivo
+3. Abra no navegador — a aula com quiz interativo funciona completamente offline
 
 ---
 
