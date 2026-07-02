@@ -454,7 +454,97 @@ print("5. Comunicação:", "quem cancela assiste 70% menos conteúdo no 1º mês
   </section>
 
   <section>
-    <h2>5. Seu acesso ao Repositório da Turma (sem pressa, fora da aula de hoje)</h2>
+    <h2>5. Como abrir o notebook desta semana no Google Colab</h2>
+    <p>Cada semana tem um arquivo <code>notebook_colab.ipynb</code> com exemplos de código e atividades práticas. Você vai abrir esse arquivo no <strong>Google Colab</strong> — um ambiente de programação que roda no navegador, sem instalar nada no seu computador.</p>
+
+    <div class="box tip">
+      <strong>⚠️ Primeiro passo sempre igual em qualquer caminho abaixo:</strong> ao abrir o notebook, ele está em modo <u>somente leitura</u> — é a versão oficial do professor. Antes de escrever qualquer coisa, clique em <strong>Arquivo → Salvar uma cópia no Drive</strong>. Uma nova aba abre com <em>a sua cópia</em> — trabalhe sempre nela.
+    </div>
+
+    <div class="caminho">
+      <h3>Caminho A — Link direto (recomendado)</h3>
+      <ol class="passos">
+        <li>
+          <h4>Clique no link abaixo</h4>
+          <p class="porque">O Google Colab já abre com o notebook desta semana carregado — nenhum passo extra necessário.</p>
+          <p><a href="https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb" target="_blank" rel="noopener" style="display:inline-block;background:#F9AB00;color:#000;padding:9px 20px;border-radius:6px;font-weight:bold;text-decoration:none;font-size:.95rem;">▶ Abrir notebook no Colab — Semana 01</a></p>
+        </li>
+        <li>
+          <h4>Salve uma cópia no Drive</h4>
+          <p class="porque">No Colab, clique em <strong>Arquivo → Salvar uma cópia no Drive</strong>. Uma nova aba abre com <em>a sua cópia</em> — é ela que você vai usar para fazer os exercícios.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="caminho">
+      <h3>Caminho B — Pelo menu do Google Colab</h3>
+      <ol class="passos">
+        <li>
+          <h4>Abra o Google Colab</h4>
+          <p class="porque">Acesse <a href="https://colab.research.google.com" target="_blank" rel="noopener">colab.research.google.com</a> no navegador.</p>
+        </li>
+        <li>
+          <h4>Clique em Arquivo → Abrir notebook</h4>
+          <p class="porque">No menu superior do Colab, clique em <strong>Arquivo</strong> e depois em <strong>Abrir notebook</strong>. Uma janela com várias abas vai aparecer.</p>
+        </li>
+        <li>
+          <h4>Selecione a aba "GitHub"</h4>
+          <p class="porque">Na janela que abriu, clique na aba <strong>GitHub</strong> (não "Google Drive" nem "Upload").</p>
+        </li>
+        <li>
+          <h4>Busque o repositório da turma</h4>
+          <p class="porque">No campo de busca, digite o nome abaixo e pressione <strong>Enter</strong>:</p>
+          <pre class="codeblock">cfneves/turma05-analise-de-dados-com-python</pre>
+        </li>
+        <li>
+          <h4>Clique no arquivo da semana</h4>
+          <p class="porque">Aguarde a lista de arquivos carregar. Clique em:</p>
+          <pre class="codeblock">01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb</pre>
+          <p class="porque">O notebook abre diretamente no Colab.</p>
+        </li>
+        <li>
+          <h4>Salve uma cópia no Drive</h4>
+          <p class="porque">Clique em <strong>Arquivo → Salvar uma cópia no Drive</strong> — só assim você pode editar e guardar suas respostas.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="caminho">
+      <h3>Caminho C — Clonar o repositório dentro do Colab</h3>
+      <ol class="passos">
+        <li>
+          <h4>Abra um novo notebook no Colab</h4>
+          <p class="porque">Acesse <a href="https://colab.research.google.com" target="_blank" rel="noopener">colab.research.google.com</a> e clique em <strong>"+ Novo notebook"</strong>.</p>
+        </li>
+        <li>
+          <h4>Clone o repositório numa célula de código</h4>
+          <p class="porque">Clique na primeira célula, cole o código abaixo e pressione <strong>Shift+Enter</strong> para executar. O Colab baixa todos os arquivos do repositório para a memória da sessão.</p>
+          <pre class="codeblock">!git clone https://github.com/cfneves/turma05-analise-de-dados-com-python.git
+%cd turma05-analise-de-dados-com-python
+!ls</pre>
+        </li>
+        <li>
+          <h4>Abra o painel de arquivos</h4>
+          <p class="porque">No painel esquerdo do Colab, clique no ícone de <strong>pasta (📁)</strong>. A pasta do repositório aparece na lista de arquivos.</p>
+        </li>
+        <li>
+          <h4>Navegue até o notebook da semana</h4>
+          <p class="porque">Na lista de arquivos, clique na pasta <strong><code>01_Introducao_Fundamentos_Analise_Dados</code></strong> para expandi-la.</p>
+        </li>
+        <li>
+          <h4>Abra o notebook com clique duplo</h4>
+          <p class="porque">Clique <strong>duas vezes</strong> em <code>notebook_colab.ipynb</code>. O notebook abre em uma nova aba do Colab.</p>
+        </li>
+        <li>
+          <h4>Salve uma cópia no Drive — obrigatório neste caminho</h4>
+          <p class="porque"><strong style="color:var(--red-dark);">Não pule este passo:</strong> o arquivo clonado está na memória temporária do Colab — se a sessão cair ou o navegador fechar, tudo que você escreveu some. Clique em <strong>Arquivo → Salvar uma cópia no Drive</strong> antes de começar.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Seu acesso ao Repositório da Turma (sem pressa, fora da aula de hoje)</h2>
     <p>Toda a turma trabalha dentro de um <strong>repositório compartilhado</strong> no GitHub: <code>turma05-analise-de-dados-com-python</code>. É lá que está o material de cada semana e onde você vai guardar (e enviar para o professor revisar) os seus próprios exercícios.</p>
     <div class="box tip">
       <strong>🗓️ Isso não é conteúdo desta semana, é configuração de ambiente.</strong> Diferente do que vimos até aqui (que é 100% conceitual), configurar o GitHub envolve termos novos como "branch", "commit" e "Pull Request" — não tem problema nenhum não entender tudo de primeira. Faça esse passo a passo com calma, no seu tempo, seguindo o <strong><code>GUIA_GITHUB.md</code></strong> que está na raiz do repositório. Não é preciso terminar hoje nem nesta semana.

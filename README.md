@@ -83,26 +83,38 @@ Os notebooks `.ipynb` foram feitos para o **Google Colab** e não exigem nada in
 
 **Opção A — link direto** (mais rápido):
 
+Clique no botão abaixo — o Colab já abre com o notebook carregado:
+
 [![Abrir no Colab — Semana 01](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb)
 
-*(Semana 01 — as demais semanas terão seus próprios links ao serem liberadas ao longo do curso)*
+*(As demais semanas terão seus próprios links ao serem liberadas ao longo do curso)*
 
-**Opção B — pelo próprio Colab**:
+**Opção B — pelo menu do próprio Colab**:
+
 1. Acesse [colab.research.google.com](https://colab.research.google.com)
-2. **Arquivo → Abrir notebook → aba GitHub**
-3. Busque: `cfneves/turma05-analise-de-dados-com-python`
-4. Clique no `notebook_colab.ipynb` da semana desejada
+2. Clique em **Arquivo → Abrir notebook**
+3. Na janela que abrir, clique na aba **GitHub**
+4. No campo de busca, digite `cfneves/turma05-analise-de-dados-com-python` e pressione **Enter**
+5. Aguarde a lista de arquivos carregar
+6. Clique em `01_Introducao_Fundamentos_Analise_Dados/notebook_colab.ipynb`
+7. O notebook abre direto no Colab
 
 **Opção C — clonar o repositório dentro do Colab**:
+
+1. Acesse [colab.research.google.com](https://colab.research.google.com) e crie um **"+ Novo notebook"**
+2. Na primeira célula, cole o código abaixo e pressione **Shift+Enter**:
+
 ```python
-# Cole numa célula do Colab e execute (Shift+Enter):
 !git clone https://github.com/cfneves/turma05-analise-de-dados-com-python.git
 %cd turma05-analise-de-dados-com-python
-!ls          # lista as pastas disponíveis
+!ls
 ```
-O repositório aparece no painel de arquivos (ícone de pasta, à esquerda). Navegue até a semana desejada e clique no `notebook_colab.ipynb` para abrir em uma nova aba.
 
-> ⚠️ **Importante:** ao abrir via Opção A ou B, o notebook é somente leitura — é a versão oficial do professor. Faça **Arquivo → Salvar uma cópia no Drive** imediatamente para ter a sua versão editável no Google Drive.
+3. No painel esquerdo, clique no ícone de **pasta (📁)** para abrir o navegador de arquivos
+4. Clique na pasta `01_Introducao_Fundamentos_Analise_Dados` para expandir
+5. Clique **duas vezes** em `notebook_colab.ipynb` — o notebook abre em uma nova aba
+
+> ⚠️ **Importante (qualquer que seja a opção):** o notebook que você abre é somente leitura — é a versão do professor. Clique imediatamente em **Arquivo → Salvar uma cópia no Drive** para ter a sua versão editável. Trabalhe sempre nessa cópia, nunca na original.
 
 ---
 
